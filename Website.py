@@ -3,9 +3,7 @@ import requests
 from datetime import datetime
 @route('/')
 def index():
-    name = 'Isaiah'
-    response = requests.get(f"https://api.agify.io/?name={name}")
-    response = response.json()
-    age = response['age']
-    return template('index', name=name, age=age)
+   now = datetime.now()
+   current_time = now.strftime("%H:%M:%S")
+   return template('index', time=current_time)
 run(host='0.0.0.0', port=4000, reloader=True, debug=True)
