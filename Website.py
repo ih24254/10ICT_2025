@@ -2,10 +2,12 @@ from bottle import route, run, template, view, static_file, request, redirect, e
 import requests
 from datetime import datetime
 
-@route('/<name>')
-def index(name):
-     response = requests.get(f"https://api.agify.io/?name={name}")
-     response = response.json()
-     age = response['age']
-     return template('index', name=name, age=age)
+
+@route('/')
+@route('/home')
+@view('homepage')
+def index():
+     pass
+
+#main routine
 run(host='0.0.0.0', port=4000, reloader=True, debug=True)
