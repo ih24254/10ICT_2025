@@ -12,5 +12,9 @@ def server_static(filepath):
 def index():
   pass
 
+@route('/page1')
+@view('/page1')
+def sport_page():
+
 #main routine
 run(host='0.0.0.0', port=4000, reloader=True, debug=True)
