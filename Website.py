@@ -13,8 +13,13 @@ def index():
   pass
 
 @route('/page1')
-@view('/page1')
+@view('sport')
 def sport_page():
+  pass
+
+@route('/page2')
+@view('other')
+def other_page():
   pass
 
   #main routine
