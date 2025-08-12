@@ -18,8 +18,8 @@ def sport_page():
   pass
 
 @route('/page2')
-@view('other')
-def other_page():
+@view('video')
+def video_page():
   pass
 
   #main routine
