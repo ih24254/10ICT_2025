@@ -3,6 +3,8 @@ img {
     height: 400px;
 }
 
-h1 {
-    background-color: yellow;
+body {
+    background: #00b7ff;
+    background: linear-gradient(90deg, rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 30%, rgba(146, 216, 110, 1) 40%, rgba(216, 237, 83, 1) 50%, rgba(163, 221, 104, 1) 60%, rgba(95, 201, 130, 1) 70%, rgba(0, 183, 255, 1) 100%);
 }
+

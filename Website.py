@@ -13,13 +13,13 @@ def index():
   pass
 
 @route('/page1')
-@view('sport')
-def sport_page():
+@view('Pillar1')
+def Pillar1_page():
   pass
 
 @route('/page2')
-@view('video')
-def video_page():
+@view('Pillar2')
+def Pillar2_page():
   pass
 
   #main routine
