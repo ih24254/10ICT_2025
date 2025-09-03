@@ -22,3 +22,16 @@ button:hover {
   background-color: rgb(155, 0, 0);
   color: rgb(0, 0, 143);
 }
+
+p {
+    text-align: center;
+    color: #2a4d69;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #2a4d69;
+    margin-bottom: 30px;
+}
+
