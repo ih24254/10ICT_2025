@@ -14,7 +14,7 @@ body {
 
 button {
   transition-duration: 0.4s;
-  background-color: red;
+  background-color: rgb(255, 101, 101);
   color: blue;
 }
 
