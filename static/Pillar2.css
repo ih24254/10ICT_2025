@@ -38,3 +38,13 @@ p {
     color: #333333;
     text-align:center;
 }
+
+div2 {
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}   
+
+
